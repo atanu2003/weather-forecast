@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5-Day Weather Forecast</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <link href="/dist/styles.css" rel="stylesheet">
+</head>
+<body class="bg-blue-100 flex items-center justify-center min-h-screen">
+    <div class="container mx-auto p-6 bg-white rounded-lg shadow-lg max-w-lg">
+        <h1 class="text-2xl font-bold mb-4 text-center">5-Day Weather Forecast</h1>
+        <div class="mb-4 flex justify-between">
+            <input id="city-input" type="text" placeholder="Enter city" class="border p-2 rounded-lg w-full mr-2">
+            <button id="search-btn" class="bg-blue-500 text-white p-2 rounded-lg">Search</button>
+        </div>
+        <div id="forecast" class="space-y-4"></div>
+    </div>
+    <script src="index1.js"></script>
+</body>
+</html>
